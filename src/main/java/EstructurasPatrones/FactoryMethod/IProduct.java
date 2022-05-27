@@ -1,2 +1,5 @@
-package EstructurasPatrones.FactoryMethod;public interface IProduct {
+package EstructurasPatrones.FactoryMethod;
+
+public interface IProduct {
+    void create();
 }

@@ -1,2 +1,7 @@
-package EstructurasPatrones.FactoryMethod;public class Creator {
+package EstructurasPatrones.FactoryMethod;
+
+public abstract class Creator {
+    public Creator(){}
+
+    public abstract IProduct factoryMethodProduct();
 }

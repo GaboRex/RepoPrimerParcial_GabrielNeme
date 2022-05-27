@@ -1,6 +1,6 @@
 package EstructurasPatrones.Prototype;
 
-public class ConcretePrototype {
+public class ConcretePrototype1 {
     private String attribute1;
     private String attribute2;
     private String attribute3;

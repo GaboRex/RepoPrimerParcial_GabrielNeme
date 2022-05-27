@@ -1,2 +1,4 @@
-package EjerciciosExamen.E3;public class Cliente {
+package EjerciciosExamen.E3;
+
+public class Cliente {
 }

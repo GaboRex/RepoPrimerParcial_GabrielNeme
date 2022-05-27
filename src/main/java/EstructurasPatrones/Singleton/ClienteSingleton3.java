@@ -1,4 +1,4 @@
 package EstructurasPatrones.Singleton;
 
-public class ClienteSingleton1 {
+public class ClienteSingleton3 {
 }

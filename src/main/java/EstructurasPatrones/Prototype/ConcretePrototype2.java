@@ -1,6 +1,6 @@
 package EstructurasPatrones.Prototype;
 
-public class ConcretePrototype1 {
+public class ConcretePrototype2 implements IPrototype {
     private String attribute1;
     private String attribute2;
     private String attribute3;
@@ -9,7 +9,7 @@ public class ConcretePrototype1 {
     private String attribute6;
     private String attribute7;
 
-    public ConcretePrototype1(){}
+    public ConcretePrototype2(){}
 
     public String getAttribute1() {
         return attribute1;
@@ -69,7 +69,7 @@ public class ConcretePrototype1 {
 
     @Override
     public Object clone(){
-        ConcretePrototype1 clone = new ConcretePrototype1();
+        ConcretePrototype2 clone = new ConcretePrototype2();
         clone.setAttribute1(this.getAttribute1());
         clone.setAttribute2(this.getAttribute2());
         clone.setAttribute3(this.getAttribute3());

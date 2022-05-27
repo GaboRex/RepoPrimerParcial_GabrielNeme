@@ -1,0 +1,21 @@
+4) 15% (builder) Se tiene un cine que vende diferentes tipos combos de alimentos para ver las
+películas se tienen 3 tipos de paquetes : Mega Paquete cuenta con pipocas extragrandes, 3
+vasos de gaseosas extragrandes con recarga ilimitada, 2 chocolates grandes, Paquetes
+Medianos cuenta con pipocas grandes, 2 vasos de refrescos y 1 chocolate, y Paquete Normal
+que cuenta con pipocas en envase normal, 1 refresco y no cuenta con chocolates. entra 1
+cliente y pide 1 de cada paquete
+
+
+-------------------------------------------------------------------------------------
+
+Cliente
+Producto ---> Combo de alimento
+prodcutio concreto ---->
+Mega paquete(pipocas extragrandes, 3 vasos de gaseosas extragrandes con recarga ilimitada,
+    2 chocolates grandes, ),
+
+paquete mediano(pipocas grandes, 2 vasos de refrescos y 1 chocolate),
+
+paquete normal(Pipocas en envase normal, 1 refresco y no cuenta con chocolates. entra 1 cliente y pide 1 de cada paquete)
+Builder----> BuilderCombo
+Director----> Owner
