@@ -1,0 +1,20 @@
+2) 15% (prototype) En una fábrica de televisores se crea un nuevo televisor smart donde tiene
+diferentes características que se asemejan a una computadoras como ser: sistema operativo
+(android), versión del sistema operativo (11.0), pulgadas (80), resolución (50), puerto hdmi
+(true), puertos usb (4), control remoto (true), bluetooth (true), serial del televisor (10 dígitos), se
+desea vender 5 televisores donde lo que varía es el serial del televisor
+
+------------------------------------------------------------------------------------------
+
+Televisor:
+//varia -----> serial del televisor (10 dígitos)
+    Sistema operativo(android),
+    versión del sistema operativo (11.0),
+    pulgadas (80), resolución (50),
+    puerto hdmi(true),
+    puertos usb (4),
+    control remoto (true),
+    bluetooth (true)
+
+ITelevisor
+Cliente
