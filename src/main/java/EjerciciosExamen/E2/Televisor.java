@@ -5,7 +5,7 @@ public class Televisor {
     private int serialTele;
     //no varian
     private String sistemaOperativo;
-    private int versionSistemaOperativo;
+    private double versionSistemaOperativo;
     private int pulgadas;
     private int resolucion;
     private Boolean hdmi;
@@ -31,11 +31,11 @@ public class Televisor {
         this.sistemaOperativo = sistemaOperativo;
     }
 
-    public int getVersionSistemaOperativo() {
+    public double getVersionSistemaOperativo() {
         return versionSistemaOperativo;
     }
 
-    public void setVersionSistemaOperativo(int versionSistemaOperativo) {
+    public void setVersionSistemaOperativo(double versionSistemaOperativo) {
         this.versionSistemaOperativo = versionSistemaOperativo;
     }
 
@@ -102,13 +102,17 @@ public class Televisor {
         return cloneTv;
     }
 
-
     public void mostrarInfoTv(){
         System.out.println("++++ MOSTRAR INFO TELEVISOR ++++");
-        System.out.println("Tus pipocas son: " +tipoPipocas);
-        System.out.println("Tus refrescos son: " +tipoRefresco);
-        System.out.println("Tienes: " +tipoChocolate);
+        System.out.println("Serial Tv: " +serialTele);
+        System.out.println("Version del sistema operativo: " +versionSistemaOperativo);
+        System.out.println("Pulgadas: " +pulgadas + " pulgadas");
+        System.out.println("Resolucion: " +resolucion);
+        System.out.println("Puerto hdmi: " +hdmi);
+        System.out.println("Puertos USB: " +puertosUsb + " puertos usb");
+        System.out.println("Control Remoto: " +controlRemoto);
+        System.out.println("Bluetooth: " +bluetooth);
         System.out.println();
     }
-    }
 }
+

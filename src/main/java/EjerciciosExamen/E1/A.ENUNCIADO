@@ -1,0 +1,6 @@
+1) 15% (singleton ) En un sector en la carretera se tiene un control y cobro de peajes a los
+vehículos con datos : placa,modelo y color, este centro de control solo tiene una cabina donde
+se realizan estos pagos y el registro de los vehículos que están realizando dicho pago (el pago
+es diferente según el modelo del auto), el administrador desea revisar cuando de dinero se
+tiene recaudado y la información de los vehículos que pasaron por el peaje cuando ya se tienen
+unos 6 vehículos ya registrados.

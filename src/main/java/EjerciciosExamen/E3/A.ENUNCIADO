@@ -1,0 +1,16 @@
+3) 10% (abstract factory) Se desea tener una forma fácil de crear
+específicos artefactos
+electrónicos donde se define el precio de cada uno al momento de
+instanciarlo, los artefactos
+son :
+televisión, radio, batidora, refrigerador, microondas. , crear 1 de cada artefacto y
+definir precios distintos
+
+-----------------------------------------------------------------
+IArtefacto
+FactoryArtefacto
+Tv
+Radio
+Batidora
+Refrigerador
+Microondas
